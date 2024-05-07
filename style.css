@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(12, 12, 12);
+    color: rgb(227, 227, 227);
+    font-family:'Courier New', Courier, monospace;
+}
+header {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 50px;
+}
+a {
+    text-decoration: none;
+    color: rgb(227, 227, 227);
+    font-family:'Courier New', Courier, monospace;
+}
+.line {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.catalogBooks {
+    display: flex;
+    justify-content: left;
+}
+.bookInstance {
+    height: 500px;
+    width: 300px;
+    text-align: center;
+    margin: 100px 200px;
+}
+.bookInstance img {
+    height: 400px;
+}
+#filter {
+    margin-top: 200px;
+}
+#filter select {
+    background-color: rgb(12, 12, 12);
+    color: rgb(227, 227, 227);
+    font-family:'Courier New', Courier, monospace;
+    border-color: rgb(242, 97, 63);
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 150px;
+}

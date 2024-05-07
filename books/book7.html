@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Description</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="C:\Users\Timur\Desktop\AlmaU 2\Front-End\Сессия\catalog.html">Catalog</a>
+        <a href="C:\Users\Timur\Desktop\AlmaU 2\Front-End\Сессия\favourites.html">Favourites</a>
+        <a href="C:\Users\Timur\Desktop\AlmaU 2\Front-End\Сессия\index.html"><img src="Logo.png"></a>
+        <a href="C:\Users\Timur\Desktop\AlmaU 2\Front-End\Сессия\cart.html">Cart</a>
+        <a href="C:\Users\Timur\Desktop\AlmaU 2\Front-End\Сессия\about.html">About Us</a>
+    </header>
+    <div class="line"><img src="Line Logo.png"></div>
+    <main>
+        <div class="bookdesc" id="6">
+            <div class="title">
+                <h1>1984</h2>
+                <img src="C:\Users\Timur\Desktop\AlmaU 2\Front-End\Сессия\images\1984.jpg" alt="">
+            </div>
+            <div class="desc">
+                <p>Author: George Orwell</p>
+                <p>Genre: Fiction</p>
+                <p>Length: Long</p>
+                <p>Book about 1984 very epic. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend quis quam at accumsan. In varius a massa sit amet posuere. Donec sed dolor ut eros iaculis maximus vestibulum ut purus. Curabitur non dolor ut ante finibus congue. Phasellus interdum, sem nec condimentum convallis, nulla purus rutrum sem, vitae convallis diam diam eget libero. Nam dapibus auctor libero, convallis tincidunt purus interdum vitae. Praesent tempus, massa ut viverra volutpat, felis metus dignissim felis, a condimentum ipsum velit vel ex. Donec tristique, lectus eget rutrum tempus, massa ex faucibus augue, eu ultricies orci nunc eget felis. Quisque laoreet leo eget nunc laoreet, in tristique sapien scelerisque.</p>
+                <div class="buttons">
+                    <div id="readBtn">Read Book</div>
+                    <div id="addToFavorites">Add to favourites</div>
+                    <div id="addToCart">Add to cart</div>
+                </div>
+            </div>
+        </div>
+        <div id="bookViewer" class="hidden">
+            <div class="bookViewerstyled">
+                <div class="reading">
+                    <div id="prevBtn" class="arrow">◄</div>
+                    <div id="bookContent"></div>
+                    <div id="nextBtn" class="arrow">►</div>
+                </div>
+                <div id="closeBtn">Close</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="book.js"></script>
+</body>
+</html>
